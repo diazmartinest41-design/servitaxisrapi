@@ -1,1 +1,29 @@
-{\n  "name": "servitaxisrapi",\n  "version": "1.0.0",\n  "description": "API for Servitaxis service",\n  "main": "index.js",\n  "scripts": {\n    "test": "echo 'Error: no test specified' && exit 1"\n  },\n  "author": "diazmartinest41-design",\n  "license": "ISC"\n}
+{
+  "name": "servitaxisrapi",
+  "version": "1.0.0",
+  "description": "API for Servitaxis service",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "dependencies": {
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "@vercel/speed-insights": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.3.0",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.2.0"
+  },
+  "author": "diazmartinest41-design",
+  "license": "ISC"
+}
