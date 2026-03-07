@@ -32,3 +32,33 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Next.js
+.next/
+out/
+node_modules/
+.DS_Store
+*.pem
+
+# Production
+build/
+dist/
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
